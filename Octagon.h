@@ -9,7 +9,6 @@ public:
 	Octagon();
 	Octagon(std::istream &is);
 	Octagon(size_t i);
-	Octagon(const Octagon& orig);
 	double Square() override;
 	void Print() override;
 	virtual ~Octagon();
