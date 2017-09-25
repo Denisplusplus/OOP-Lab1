@@ -7,8 +7,6 @@
 using namespace std;
 
 void menu(void);
-bool triangle_check(size_t i, size_t j, size_t k);
-
 
 int main(int argc, char** argv) {
 	int choise;
