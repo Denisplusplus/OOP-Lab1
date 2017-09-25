@@ -4,11 +4,13 @@
 #include "Foursquare.h"
 #include "Octagon.h"
 
-using namespace std;
 
 void menu(void);
 
+
+
 int main(int argc, char** argv) {
+	
 	int choise;
  
     Triangle* triangle_ptr = nullptr;
@@ -17,7 +19,7 @@ int main(int argc, char** argv) {
 
     do {
 		menu();
-		cin >> choise;
+		std::cin >> choise;
 		switch(choise) {
 			case 1 :
 				if (triangle_ptr != nullptr) delete triangle_ptr;
@@ -92,7 +94,6 @@ int main(int argc, char** argv) {
 			default :	
 				break;
 		}
-		cout << endl;
 	} while(choise != 0);
     
 	return 0;
