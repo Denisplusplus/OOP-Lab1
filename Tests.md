@@ -1,4 +1,5 @@
-###Test
+# Tests
+
 Menu:
 1) Initialize A Triangle
 2) Initialize A Foursquare
