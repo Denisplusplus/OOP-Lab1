@@ -8,7 +8,6 @@ public:
 	Triangle();
 	Triangle(std::istream &is);
 	Triangle(size_t i, size_t j, size_t k); // size_t - базовый беззнаковый тип 
-	Triangle(const Triangle& orig);
 	double Square() override;
 	void Print() override;
 	virtual ~Triangle();
