@@ -17,13 +17,6 @@ Triangle::Triangle(std::istream &is) {
 	is >> side_c;
 }
 
-Triangle::Triangle(const Triangle& orig) {
-	std::cout << "Triangle copy created" << std::endl;
-	side_a = orig.side_a;
-	side_b = orig.side_b;
-	side_c = orig.side_c;
-}
-
 double Triangle::Square() {
 	double p = double(side_a + side_b + side_c) / 2.0;
 	return sqrt(p * (p - double(side_a))*(p - double(side_b))*(p -
