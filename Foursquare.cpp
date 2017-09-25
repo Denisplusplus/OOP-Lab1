@@ -13,10 +13,6 @@ Foursquare::Foursquare(std::istream &is) {
 	is >> side_a;
 }
 
-Foursquare::Foursquare(const Foursquare& orig) {
-	std::cout << "Foursquare copy created" << std::endl;
-	side_a = orig.side_a;
-}
 double Foursquare::Square() {
 	return side_a * side_a;
 }
