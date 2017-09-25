@@ -13,10 +13,6 @@ Octagon::Octagon(std::istream &is) {
 	is >> side_a;
 }
 
-Octagon::Octagon(const Octagon& orig) {
-	std::cout << "Octagon copy created" << std::endl;
-	side_a = orig.side_a;
-}
 double Octagon::Square() {
 	return 2 * (sqrt(2) + 1) * side_a * side_a; 
 	// S = 2*cot(pi/8)*a^2 = 2*(sqrt(2) + 1) * a^2
