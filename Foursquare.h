@@ -9,7 +9,6 @@ public:
 	Foursquare();
 	Foursquare(std::istream &is);
 	Foursquare(size_t i);
-	Foursquare(const Foursquare& orig);
 	double Square() override;
 	void Print() override;
 	virtual ~Foursquare();
